@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/e43aa8b1-ea06-46a5-abe3-df13243e718d/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1900px,100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+#nav{
+    max-width: 77vw;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+#nav img{
+    width: 150px;
+    position: relative;
+    z-index: 9;
+    
+}
+
+.button{
+    position: relative;
+    z-index: 9;
+}
+
+.home {
+    font-family:'Martel Sans', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 9;
+    height: 88%;
+    padding: 0 30px;
+    
+}
+
+.home> :nth-child(1){
+    font-size: 48px;
+    text-align: center;
+}
+.home> :nth-child(2){
+    font-size: 25px;
+    text-align: center;
+}
+.home> :nth-child(3){
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.separation-line{
+    height: 7px;
+    background-color: rgb(42, 41, 41);
+}
+
+.btn{
+    padding:6px 35px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+}
+.btn-red-sign{
+    background-color :red;
+    border: 1px solid black;
+}
+
+.btn-red-gs{
+    background-color :red;
+    padding: 10px 45px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.langdropdown{
+    background: transparent;
+    color: white;
+    padding: 8px 18px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.button option{
+    color: black;
+}
+
+.main input{
+    padding: 6px 73px 9px;
+    border-radius: 5px; 
+    background-color: rgba(23, 23, 23, 0.8);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 800;
+    color: white;
+    border: 1px solid white;
+}
+
+.page2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    
+}
+
+.page2img{
+    position: relative;
+    
+}
+.page2img img{
+    
+    position: relative;
+    z-index: 9;
+
+}
+.page2img video{
+    position: absolute;
+    top: 98px;
+    right: 75px;
+
+}
+.page2txt{
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.page2txt> :nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+}
+.page2txt> :nth-child(2){
+    font-size: 20px;
+}
+
+.page3{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+}
+.page3txt{
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.page3txt> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.page3txt> :nth-child(2){
+    font-size: 25px;
+    
+}
+
+.page4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+}
+.page4img{
+    position: relative;
+    
+}
+.page4img img{
+    position: relative;
+    z-index: 9;
+
+}
+.page4img video{
+    position: absolute;
+    top: 54px;
+    right: 48px;
+
+}
+.page4txt{
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.page4txt> :nth-child(1){
+    font-size: 44px;
+    font-weight: bolder;
+}
+.page4txt> :nth-child(2){
+    font-size: 20px;
+}
+
+.page5{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+}
+.page5txt{
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.page5txt> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.page5txt> :nth-child(2){
+    font-size: 20px;
+    
+}
+.faq{
+    
+    font-family:"Poppins", sans-serif ;
+    padding: 14px;
+    
+}
+
+.faq h2{
+    font-size: 50px;
+    color: white;
+    padding: 41px;
+    text-align: center;
+}
+.faqbox1{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin: auto;
+    cursor: pointer;
+    font-size: 23px;
+    transition: all ease ease-out;
+}
+.faqbox1 :hover{
+    background-color: gray;
+}
+.faqbox1 h3{
+    font-family:'Martel Sans', sans-serif ;
+    
+    color: white;
+}
+.faqbox1 i{
+    padding: 10px;
+    color: white;
+}
+.faqbox2{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin: auto;
+    
+}
+.faqbox2 :hover{
+    background-color: gray;
+}
+.faqbox2 h3{
+    font-family:'Martel Sans', sans-serif ;
+    font-size: 23px;
+    color: white;
+}
+.faqbox2 i{
+    padding: 10px;
+    color: white;
+}
+.faqbox3{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin:14px auto;
+    
+}
+.faqbox3 :hover{
+    background-color: gray;
+}
+.faqbox3 h3{
+    font-family:'Martel Sans', sans-serif ;
+    font-size: 23px;
+    color: white;
+}
+.faqbox3 i{
+    padding: 10px;
+    color: white;
+}
+
+.faqbox4{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin:14px auto;
+    
+}
+.faqbox4 :hover{
+    background-color: gray;
+}
+.faqbox4 h3{
+    font-family:'Martel Sans', sans-serif ;
+    font-size: 23px;
+    color: white;
+}
+.faqbox4 i{
+    padding: 10px;
+    color: white;
+}
+
+.faqbox5{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin:14px auto;
+    
+}
+.faqbox5 :hover{
+    background-color: gray;
+}
+.faqbox5 h3{
+    font-family:'Martel Sans', sans-serif ;
+    font-size: 23px;
+    color: white;
+}
+.faqbox5 i{
+    padding: 10px;
+    color: white;
+}
+
+.faqbox6{
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 18px;
+    justify-content: space-between;
+    max-width: 71vw;
+    margin:14px auto;
+    
+}
+.faqbox6 :hover{
+    background-color: gray;
+}
+.faqbox6 h3{
+    font-family:'Martel Sans', sans-serif ;
+    font-size: 23px;
+    color: white;
+}
+.faqbox6 i{
+    padding: 10px;
+    color: white;
+}
+#faqtxt{
+    max-width: 58vw;
+    margin: auto;
+    padding: 39px;
+    
+    
+    
+}
+#faqtxt h3{
+    color: white;
+    font-family:'Martel Sans', sans-serif ;
+    padding: 20px;
+    
+    
+}
+#faqtxt input{
+    padding: 6px 73px 9px;
+    border-radius: 5px; 
+    background-color: rgba(23, 23, 23, 0.8);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 800;
+    color: white;
+    border: 1px solid white;
+}
+
+footer{
+    max-width: 73vw;
+    margin: auto;
+    padding: 72px 8px;
+
+}
+
+footer span{
+    color: white;
+    font-family:"Poppins", sans-serif ;
+    
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 63px;
+    color: white;
+    font-family:'Martel Sans', sans-serif ;
+    padding: 72px 17px;
+    
+}
+@media screen and (max-width: 1300px){
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.footer a{
+    color: white;
+    
+}
+.footeritems{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footeritems select{
+    font-size: 20px;
+    padding: 5px 5px;
+    
+}
+.footeritems option{
+    color: black;
+}
+@media screen and (max-width: 1300px){
+    
+    .page2{
+        flex-wrap: wrap;
+    }
+    
+    .home> :nth-child(1){
+        font-size: 32px;
+    }
+    .home> :nth-child(2){
+        font-size: 18px;
+    }
+    .home> :nth-child(3){
+        font-size: 18px
+    }
+}
